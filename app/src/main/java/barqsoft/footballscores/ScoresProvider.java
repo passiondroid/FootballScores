@@ -125,7 +125,7 @@ public class ScoresProvider extends ContentProvider
             case MATCHES_WITH_DAYS:
                 retCursor = mOpenHelper.getReadableDatabase().query(
                         DatabaseContract.SCORES_TABLE,
-                        projection,null,null,null,null,sortOrder);
+                        projection,SCORES_BY_DAYS,selectionArgs,null,null,sortOrder);
                 break;
             case MATCHES_WITH_ID: retCursor = mOpenHelper.getReadableDatabase().query(
                     DatabaseContract.SCORES_TABLE,

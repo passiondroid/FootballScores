@@ -8,6 +8,7 @@
     <FrameLayout
         android:id="@+id/widget"
         android:layout_width="match_parent"
+        android:background="@android:color/black"
         android:layout_height="@dimen/abc_action_bar_default_height_material">
 
         <TextView
@@ -16,7 +17,7 @@
             android:layout_gravity="center"
             android:contentDescription="@string/app_name"
             android:text="@string/app_name"
-            android:textColor="#ffff8800"
+            android:textColor="@android:color/white"
             android:textAppearance="?android:textAppearanceLarge"/>
     </FrameLayout>
 

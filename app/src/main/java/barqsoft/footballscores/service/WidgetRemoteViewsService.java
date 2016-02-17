@@ -98,9 +98,6 @@ public class WidgetRemoteViewsService extends RemoteViewsService{
                 views.setTextViewText(R.id.league_textview, league);
                 views.setTextViewText(R.id.home_name, homeName);
                 views.setTextViewText(R.id.away_name, awayName);
-                System.out.println("League : "+league);
-                System.out.println("Scores : "+scores);
-                System.out.println("Date : "+date);
 
                 return views;
             }
